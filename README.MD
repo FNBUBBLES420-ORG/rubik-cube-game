@@ -1,3 +1,9 @@
+# `IN DEVELOPMENT`
+
+
+
+---
+
 # Rubik's Cube Game (Python + PyOpenGL)
 
 This project is a **Rubik's Cube Game** built using **Python** with `PyOpenGL` / `ModernGL` for rendering, and `numpy` for cube logic. The goal is to create an interactive Rubik's Cube simulator where developers can contribute to different parts of the project.

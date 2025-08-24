@@ -67,13 +67,15 @@ Double-click the file called **`rubix-cube.py`** and start playing!
 - **Drag** = Rotate your view around the cube
 - **Mouse Wheel** = Zoom in and out
 
-## 🔧 What You Need
+## 🔧 System Requirements
 
 **Your Computer Should Have:**
-- Windows 10/11, Mac (12.0+), or Linux
-- At least 1GB of memory
-- Any modern graphics card
-- 100MB of free space
+- **Windows 10/11** (64-bit or 32-bit), **macOS 12.0+**, or **Linux**
+- **Python 3.11.9** (Required - see installation steps above)
+- **At least 2GB RAM** (4GB recommended for smooth performance)
+- **OpenGL 2.1+ compatible graphics card** (Most computers from 2010+ work fine)
+- **200MB free disk space** (including Python dependencies)
+- **Internet connection** (for initial setup and Python package downloads)
 
 ## 🆘 Having Problems?
 

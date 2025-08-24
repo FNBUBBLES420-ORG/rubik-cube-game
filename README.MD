@@ -1,95 +1,141 @@
-# `IN DEVELOPMENT`
+# 🧩 Rubik's Cube 3D Game
 
+![Version](https://img.shields.io/badge/version-1.2-blue.svg)
+![Python](https://img.shields.io/badge/python-3.11.9-blue.svg)
+![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)
 
+🎮 **Play a virtual 3D Rubik's Cube on your computer!** 
 
----
+This game gives you a realistic 3D Rubik's Cube that you can rotate, scramble, and solve using your keyboard and mouse. Perfect for practicing your solving skills or learning how to solve a Rubik's Cube!
 
-# Rubik's Cube Game (Python + PyOpenGL)
+## ✨ What You Can Do
 
-This project is a **Rubik's Cube Game** built using **Python** with `PyOpenGL` / `ModernGL` for rendering, and `numpy` for cube logic. The goal is to create an interactive Rubik's Cube simulator where developers can contribute to different parts of the project.
+- 🎯 **Practice Solving**: Scramble and solve the cube as many times as you want
+- 🖱️ **3D View**: Rotate the camera to see all sides of the cube
+- ⏱️ **Timer**: Track how long it takes you to solve
+- 🎮 **Easy Controls**: Use simple keyboard keys to turn the cube faces
+- 📚 **Built-in Help**: Press H for controls, F1 for solving tips
+- 🔄 **Instant Reset**: Press C to reset to a solved state anytime
 
----
+## 🚀 Quick Start (Easy Way!)
 
-## 🎯 Project Goals
-- Build a 3D Rubik’s Cube that can be scrambled, rotated, and solved.
-- Provide smooth animations and intuitive controls.
-- Lay the foundation for adding solving algorithms and possibly a web/Unity port later.
+### Step 1: Install Python
+**You need Python 3.11.9 first** - Choose your version:
 
----
+**Windows Users:**
+- 💻 [Download for 64-bit Windows](https://www.python.org/ftp/python/3.11.9/python-3.11.9-amd64.exe) (Most common)
+- 💻 [Download for 32-bit Windows](https://www.python.org/ftp/python/3.11.9/python-3.11.9.exe)
 
-## 🛠️ Installation
+**Mac Users:**
+- 🍎 [Download for Mac](https://www.python.org/ftp/python/3.11.9/python-3.11.9-macos11.pkg)
 
-Make sure you have Python 3.11+ installed. Then install the dependencies:
+**Important:** When installing Python, make sure to check "Add Python to PATH"!
 
-```bash
-pip install PyOpenGL PyOpenGL_accelerate numpy pygame PyOpenGL.GLUT
+### Step 2: Get the Game
+1. Click the green **"Code"** button at the top of this page
+2. Select **"Download ZIP"**
+3. Save it to your Desktop
+4. Right-click the ZIP file and select "Extract All"
+5. Double-click the extracted folder to open it
+
+### Step 3: Install Game Requirements
+1. Open Command Prompt (Windows) or Terminal (Mac)
+2. Type this command and press Enter:
+   ```
+   pip install pygame PyOpenGL PyOpenGL_accelerate numpy
+   ```
+
+### Step 4: Play!
+Double-click the file called **`rubix-cube.py`** and start playing!
+
+## 🎮 How to Play
+
+### Basic Controls
+- **R L U D F B** = Turn cube faces (Right, Left, Up, Down, Front, Back)
+- **Arrow Keys** = Also turn faces (easier for beginners)
+- **SPACE** = Turn the front face
+- **Hold Shift + any key** = Turn the opposite direction
+
+### Quick Actions
+- **S** = Scramble the cube (mix it up randomly)
+- **C** = Reset to solved (if you get stuck)
+- **H** = Show help
+- **F1** = Learn how to solve
+- **ESC** = Quit game
+
+### Mouse Controls
+- **Drag** = Rotate your view around the cube
+- **Mouse Wheel** = Zoom in and out
+
+## 🔧 What You Need
+
+**Your Computer Should Have:**
+- Windows 10/11, Mac (12.0+), or Linux
+- At least 1GB of memory
+- Any modern graphics card
+- 100MB of free space
+
+## 🆘 Having Problems?
+
+### Game Won't Start?
+1. Make sure you installed Python 3.11.9 with "Add to PATH" checked
+2. Try running this in Command Prompt: `pip install pygame PyOpenGL numpy`
+3. Make sure you extracted the ZIP file completely
+
+### Game Runs Slowly?
+- Update your graphics drivers
+- Close other programs to free up memory
+- Install PyOpenGL_accelerate for better performance
+
+### Need Help Learning to Solve?
+- Press **F1** in the game for solving tips
+- Start with making a white cross on one face
+- Work one layer at a time
+- Use online tutorials for detailed steps
+
+## 📁 What's Included
+
+```
+📁 rubix-cube/
+├── 🐍 rubix-cube.py      # The game (double-click to play!)
+├── 📖 README.md          # This guide
+├── 🔒 SECURITY.md        # Security information
+├── 📄 LICENSE            # Legal stuff
+└── 📋 requirements.txt   # Technical requirements
 ```
 
----
+## 🤝 Want to Help Improve the Game?
 
-## 👥 Roles & Responsibilities
+We'd love your help! You can:
+- 🐛 Report bugs or problems
+- 💡 Suggest new features  
+- 🔧 Fix issues if you know programming
+- 📝 Improve the documentation
 
-- `Let Me Know Which Role You Would Like`
+Just open an "Issue" on this GitHub page to get started!
 
-### **Game Logic Developer**
-- Represents cube state in code (arrays or matrices).
-- Implements functions for rotations (U, D, L, R, F, B).
-- Keeps track of solved/unsolved state.
+## 📈 Version History
 
-### **3D Rendering Developer**
-- Uses PyOpenGL/ModernGL to draw cubelets.
-- Handles rotation animations (not just instant state change).
-- Manages camera angles, zoom, and lighting.
+- **v1.2** ✨ Added help system, better error handling, improved stability
+- **v1.1** 🎨 Enhanced colors, fixed display issues  
+- **v1.0** 🚀 First version with basic 3D cube
 
-### **Controls / Input Developer**
-- Handles keyboard input (arrow keys for rotation, space to scramble).
-- Implements mouse dragging to rotate the camera view.
-- Adds shortcuts for cube moves (`R`, `U'`, etc.).
+## 📜 Legal Stuff
 
-### **Scramble & Solver Developer (Optional)**
-- Writes an algorithm to scramble cube randomly.
-- Adds solving algorithms (layer-by-layer, CFOP, or others).
+This game is free and open source under the Apache 2.0 License. 
+You can use it, modify it, and share it freely!
 
----
+Full license details: http://www.apache.org/licenses/LICENSE-2.0
 
-## 🚀 Milestones
+## 💝 Credits
 
-### **Milestone 1**
-1. Open a window with one cubelet (single block).
-2. Expand to full **3×3 Rubik’s Cube**.
-3. Enable keyboard input to rotate one face.
+Made with ❤️ for cube enthusiasts everywhere!
 
-### **Milestone 2**
-1. Implement scramble function for random shuffling.
-2. Add smooth rotation animations for all faces.
-3. Camera controls: allow dragging and zooming.
-
-### **Milestone 3**
-1. Add solving algorithm support (basic layer-by-layer).
-2. Display move history and statistics.
-3. Add visual indicators for solved/unsolved state.
-
-### **Milestone 4**
-1. Implement advanced solving algorithms (CFOP, beginner’s method, etc.).
-2. Build a simple GUI menu for start/reset/scramble.
-3. Optimize rendering and input handling for performance.
-
-
-### **Milestone 5 (Future Expansion)**
-1. Add multiplayer cube races or timed challenges.
-2. Port to JavaScript (Three.js).
-3. Add sound effects, themes, and accessibility options.
+Special thanks to:
+- The Pygame community for graphics support
+- The PyOpenGL team for 3D rendering
+- Rubik's Cube solvers worldwide for inspiration
 
 ---
 
-## 📌 Future Ideas
-- Add cube scrambling.
-- Implement solving algorithms.
-- Multiplayer cube races.
-- Port to JavaScript (Three.js) or Unity for cross-platform play.
-
----
-
-## 🤝 Contributing
-- Assign yourself a role above.
-- Follow Python best practices and keep code modular.
+🧩 **Happy Cubing!** 🧩

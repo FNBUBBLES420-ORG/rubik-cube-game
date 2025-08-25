@@ -6,9 +6,9 @@ We actively support security updates for the following versions:
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.2.x   | ✅ Yes             |
-| 1.1.x   | ✅ Yes             |
-| 1.0.x   | ⚠️ Limited support |
+| 1.2.   | ✅ Yes             |
+| 1.1.   | ❌ No             |
+| 1.0.  | ❌ No             |
 | < 1.0   | ❌ No              |
 
 ## 🛡️ Security Features

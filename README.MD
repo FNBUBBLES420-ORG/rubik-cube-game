@@ -42,7 +42,7 @@ This game gives you a realistic 3D Rubik's Cube that you can rotate, scramble, a
 1. Open Command Prompt (Windows) or Terminal (Mac)
 2. Type this command and press Enter:
    ```
-   pip install pygame==2.6.1 PyOpenGL==3.1.10 PyOpenGL_accelerate==3.1.10 numpy==1.26.4
+   pip install pygame==2.6.1 PyOpenGL==3.1.10 PyOpenGL_accelerate==3.1.10 numpy==2.2.6
    ```
 
 ### Step 4: Play!
